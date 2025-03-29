@@ -1,0 +1,150 @@
+# Project Prompt: Techie Workspace Attendance Tracking System
+
+## Project Overview
+Develop a comprehensive web application for a tech-friendly coworking space that enables efficient attendance tracking, billing, and management through an innovative QR code-based system.
+
+## Core System Requirements
+
+### 1. User Management
+- Implement a robust user registration and authentication system
+- Generate unique monthly QR codes for each user
+- Support on-site and pre-registration QR code generation
+- Create user profiles with detailed tracking capabilities
+
+### 2. Authentication and Access Control
+- QR Code Authentication Mechanism
+  * One-tap check-in and check-out
+  * Unique user identification
+  * Secure, encrypted QR code generation
+- Multi-tier access system
+  * Super Admin role
+  * Manager role
+  * User role
+
+### 3. Pricing and Billing Structure
+Implement flexible billing tiers:
+- Hourly Rate: Per-hour usage tracking
+- Daily Rate: 4,000 (local currency)
+- Weekly Rate: 20,000 (local currency)
+- Monthly Rate: 68,000 (local currency)
+- Prorated billing for partial usage
+
+### 4. Payment Integration
+Integrate multiple payment gateways:
+- Stripe
+- Paystack
+- Stellar Blockchain
+- Support multiple payment methods
+- Automated receipt generation
+- Detailed transaction logging
+
+### 5. Check-In/Check-Out System
+- QR Code Scanning Mechanism
+  * Single QR code for arrival and departure
+  * Automatic time and duration tracking
+- Offline Functionality
+  * Local data storage
+  * Background synchronization
+  * Conflict resolution for offline transactions
+
+### 6. Reporting and Analytics
+Comprehensive tracking and reporting features:
+- User usage patterns
+- Peak usage hours
+- Most frequent days
+- Detailed monthly reports
+- Exportable analytics in multiple formats (PDF, CSV)
+
+### 7. Notification System
+- SMS alerts via Twilio
+- Email notifications
+- Check-in/check-out confirmations
+- Billing notifications
+
+## Technical Specifications
+
+### Architecture
+- Monolithic Web Application
+- Frontend: Flutter
+- Backend: Express.js (serverless configuration)
+- Database: MongoDB
+- Deployment: Vercel (serverless)
+- Authentication: JWT with QR code integration
+- State Management: Redux or Provider
+
+### Security Requirements
+- End-to-end encryption
+- Secure QR code generation
+- GDPR-inspired data protection
+- Regular security audits
+- Secure payment gateway integrations
+
+### Scalability Features
+- Multi-tenant architecture
+- Modular design for organization customization
+- Support for multiple workspace deployments
+
+## User Experience
+- Multi-language support
+- Responsive design
+- Intuitive interface for tech-savvy users
+- Accessibility considerations
+
+## Additional Features
+- Dark/Light mode
+- Real-time dashboard
+- Customizable user settings
+- Performance analytics
+
+## Deployment Considerations
+- Serverless function configuration
+- API route management
+- Frontend-backend integration
+- Performance optimization
+
+## Development Constraints
+- Use Flutter for cross-platform development
+- Implement serverless architecture
+- Ensure high performance and low latency
+- Focus on seamless user experience
+
+## Recommended Libraries and Tools
+- Frontend: Flutter, Provider/Riverpod
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: Firebase Auth or custom JWT
+- Payment: Stripe Flutter SDK, Paystack Flutter
+- Blockchain: Stellar SDK
+- Notifications: Twilio, Firebase Cloud Messaging
+- Deployment: Vercel
+
+## Success Metrics
+- User adoption rate
+- System uptime
+- Billing accuracy
+- User satisfaction score
+- Performance benchmarks
+
+## Potential Future Expansions
+- Mobile app development
+- Advanced analytics
+- Integration with workspace management tools
+- Machine learning-based usage predictions
+
+## Delivery Expectations
+- Fully functional web application
+- Comprehensive documentation
+- Source code repository
+- Deployment instructions
+- Initial 3-month support and minor updates
+
+## Budget and Timeline
+- Detailed cost breakdown required
+- Estimated development time: 12-16 weeks
+- Iterative development with regular client checkpoints
+
+## Compliance and Legal
+- Data privacy compliance
+- Clear terms of service
+- User consent mechanisms
+- Transparent data handling policies
